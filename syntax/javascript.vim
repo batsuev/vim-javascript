@@ -1,10 +1,10 @@
 " Vim syntax file
 " Language:     JavaScript
 " Maintainer:   Yi Zhao (ZHAOYI) <zzlinux AT hotmail DOT com>
-" Last Change By: Marc Harter
-" Last Change:  February 18, 2011
-" Version:      0.7.9
-" Changes:      Updates JSDoc syntax
+" Last Change By: Alex Batsuev
+" Last Change:  20 Nov 2011
+" Version:      0.7.10
+" Changes:      Add abbreviations
 "
 " TODO:
 "  - Add the HTML syntax inside the JSDoc
@@ -257,3 +257,4 @@ if main_syntax == 'javascript'
 endif
 
 " vim: ts=4
+exec(":source ".expand("<sfile>:p:h")."/../extras/abbr")
